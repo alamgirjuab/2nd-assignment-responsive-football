@@ -122,6 +122,9 @@ main{
     margin-right: 15px;
     opacity: 0.5;
 }
+.footer-icon{
+    margin-bottom: 20px;
+}
 /* ------------------
   |  Media Queries  |
    -----------------*/
