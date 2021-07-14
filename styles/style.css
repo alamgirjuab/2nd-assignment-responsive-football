@@ -1,19 +1,70 @@
 /* ------------------
   |  Common Styles  |
    -----------------*/
-body{
+*{
+    margin: 0;
+}
+   body{
     font-family: 'Poppins', sans-serif;
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
+.btn{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+/* ------------------
+  |  Header Styles  |
+   -----------------*/
+.top-section{
+    display: flex;
+    justify-content: center;
+    background-color: #2D25A0;
+    padding-top: 139px;
+    margin-bottom: 70px;    
+}
+.top-section:hover .top-right img{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.top-header{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 69px;
+    
+}
+.top-left h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top-right img{
+    width: 556px;
+    height: 438px;
+}
+
+/* ---------------------------
+  |  Players Section Styles  |
+   --------------------------*/
+
 .players-section{
     width: 1050px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
+    margin-bottom: 165px;
 }
 .player{
     padding: 15px 15px 33px 15px;
@@ -23,4 +74,47 @@ main{
 .player img{
     width: 300px;
     height: 256px;
+}
+/* ---------------------------
+  |  Bottom Section Styles  |
+   --------------------------*/
+.bottom-section{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 69px;
+    margin-bottom: 158px;
+}
+.bottom-left h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.bottom-left p{
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+.bottom-right img{
+    width: 100%;
+}
+/* ---------------------------
+  |  Footer Section Styles  |
+   --------------------------*/
+.footer-section{
+    width: 485px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-icon, .copyright p{
+    text-align: center;
+}
+.copyright p{
+    font-size: 18px;
+}
+.fab{
+    font-size: 30px;
+    margin-right: 15px;
+    opacity: 0.5;
 }
