@@ -125,6 +125,14 @@ main{
 .footer-icon{
     margin-bottom: 20px;
 }
+.footer-icon .fab{
+    color: grey;
+}
+.footer-icon .fab:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+    color: #E02C6D;
+}
 /* ------------------
   |  Media Queries  |
    -----------------*/
