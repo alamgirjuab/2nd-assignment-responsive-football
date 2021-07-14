@@ -143,7 +143,7 @@ main{
     }
     .players-section, .bottom-section{
         grid-template-columns: repeat(1, 1fr);
-        width: 80%;
+        width: 90%;
         margin-bottom: 60px;
     } 
     .player{
